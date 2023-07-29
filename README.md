@@ -9,15 +9,6 @@
      📝 Library : Pandas, Numpy, Matplotlib <br><br>
      🛠  Tool : Google Colab <br><br>
      📅 진행기간 : 2023.03.23 ~ 2023.04.07</h4>
-     
-### 👨‍👦‍👦 팀원소개
-<table>
-<tbody>
-  <tr>
-    <td align="left"><img src="" width="20px;" alt=""/><br /><b>팀원 : 이희구</b></a><br /></td>
-   <tr/>
-</tbody>
-</table>
 
 <br>
 
