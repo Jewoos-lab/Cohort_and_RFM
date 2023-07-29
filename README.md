@@ -58,7 +58,7 @@
 
 # 📊 EDA(탐색적 데이터 분석)
 ## 1) Top10 국가
-<h3 align="center"><img src= "https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/5abf98ec-7c8b-4f99-b751-5f8a1cc2cc22"></h3>
+<h3><img src= "https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/5abf98ec-7c8b-4f99-b751-5f8a1cc2cc22"></h3>
 
 * 영국이 90% 이상을 차지하는 것을 보여주고, 다른 나라는 3%에도 미치지 않는 것을 확인
 
@@ -68,7 +68,7 @@
 
 ## 2) 고객과 상품
 ### 2-a) 총 제품 수(Stock code), 거래 수(InvoiceNo), 고객 수(CustomerID) 파악
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/72805b80-36c0-4469-b778-bba6c5bd882f></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/72805b80-36c0-4469-b778-bba6c5bd882f></h3>
 
 <br>
 
@@ -77,7 +77,7 @@
 <br><br>
 
 ### 2-b) 모든 거래에서 구매한 제품의 수를 확인
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/110061e7-676a-4678-b9e4-ca7c67694eac></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/110061e7-676a-4678-b9e4-ca7c67694eac></h3>
 
 ##### Insights
 * 하나의 제품만 구매한 고객이 있는가 하면, 여러 번 주문한 고객이 있음
@@ -87,14 +87,14 @@
 <br><br>
 
 ### 2-c) 주문 상태
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/be3b198e-8fa4-4f70-9e09-79ae517d72ba></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/be3b198e-8fa4-4f70-9e09-79ae517d72ba></h3>
 
 * 약 16.47% 의 주문이 취소됨
  
 <br><br>
 
 ## 3) Stock Code (제품 코드)
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/b3b8c676-125f-447a-8caa-73d968d7e5de></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/b3b8c676-125f-447a-8caa-73d968d7e5de></h3>
 
 * POST의 수가 가장 많고, 그 뒤로 M, C2가 뒤를 잇는다는 것을 확인
 
@@ -102,14 +102,14 @@
 
 ## 4) 총 구매 금액
 ### 4-a)
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/e1cbe6f4-cff7-43a2-8e2d-f557f05e3ebc></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/e1cbe6f4-cff7-43a2-8e2d-f557f05e3ebc></h3>
 
 * 대부분 낮은 금액의 구매로 이루어진 것을 확인
 
 <br><br>
 
 ### 4-b)
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/48d5eee7-49f4-4f05-bd20-db2aaac42804></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/48d5eee7-49f4-4f05-bd20-db2aaac42804></h3>
 
 * 영국을 제외한 국가들의 주문 수 확인
 
@@ -126,7 +126,7 @@
 <br><br>
 
 ### 2) 열 생성 및 그룹화
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/4d17cbbb-c335-4620-a8a4-052393100f60></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/4d17cbbb-c335-4620-a8a4-052393100f60></h3>
 
 * 'CohortMonth'라는 열을 생성하여 각 거래의 InvoiceDate의 해당 월의 첫 번째 날짜를 사용하여 거래가 이루어진 월을 나타냄 
 
@@ -135,7 +135,7 @@
 <br><br>
 
 ### 3) 최초 구매 후 재구매한 달
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/67475f09-e29d-44f4-b87b-9b6cb79ad171></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/67475f09-e29d-44f4-b87b-9b6cb79ad171></h3>
 
 * InvoiceMonth와 CohortMonth 열 사이의 차이를 월 수로 계산하여 CohortIndex를 구함
   
@@ -146,7 +146,7 @@
 <br><br>
 
 ### 4) 코호트 분석 매트릭스
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/7435b6e0-dcf2-42a5-ab2e-b12babf8e98a></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/7435b6e0-dcf2-42a5-ab2e-b12babf8e98a></h3>
 
 * CohortMonth 및 CohortIndex별로 데이터를 그룹화하고 CustomerID 열에 집계하여 코호트 분석 매트릭스를 얻음
   
@@ -168,7 +168,7 @@
 <br><br>
 
 ### 5) 전체 고객 중 활성 고객의 비율로 정의되는 유지율 계산
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/7e84df93-8b79-4e85-8a0a-42b81e981212></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/7e84df93-8b79-4e85-8a0a-42b81e981212></h3>
 
 * 첫 번째 거래는 CohortIndex 0에 해당하기 때문에, 데이터의 첫번째 열을 코호트 크기로 사용
 
@@ -179,7 +179,7 @@
 <br><br>
 
 ### 6) Retention Rates
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/d0460328-a5cb-4d2d-82da-010e00926862></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/d0460328-a5cb-4d2d-82da-010e00926862></h3>
 
 * 위의 유지율 히트맵에서 CohortMonth 2010–12–01에 대해 평균 ~35%의 유지율이 있으며 가장 높은 유지율은 11개월(49.3%) 후에 발생한다는 것을 알 수 있음
 
@@ -205,7 +205,7 @@
 <br><br>
 
 #### 2-a) 세그먼트 분할
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/113b5a14-973c-4071-a72e-7ed44199a5f7></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/113b5a14-973c-4071-a72e-7ed44199a5f7></h3>
 
 * 그런 다음 해당 데이터를 4개의 분위수 세그먼트로 나눔
 
@@ -222,7 +222,7 @@
 <br><br>
 
 ### 3) R, F, M 속성에 점수 할당
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/dcb1ea94-122b-439a-a266-4336a49e4eda></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/dcb1ea94-122b-439a-a266-4336a49e4eda></h3>
 
 * 최근성 메트릭의 경우 가장 최근성 값이 가장 작은 고객에게 가장 높은 값인 4가 할당됨 (최신 고객이므로)
 
@@ -233,14 +233,14 @@
 <br><br>
 
 ### 4) RFM 점수를 기반으로 데이터를 그룹화한 후, 다양한 RFM 점수에 대해 평균 속성 값을 비교
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/6d0665f6-e3f6-41e3-80b5-fe4135e96e30></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/6d0665f6-e3f6-41e3-80b5-fe4135e96e30></h3>
 
 * 예상대로 RFM 점수가 가장 낮은 고객은 최근성이 가장 높고, 빈도 및 금전적 가치가 가장 낮음
 
 <br><br>
 
 ### 5) 범주 정의
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/563a3e1a-70e0-4856-85ac-56aa164eed01></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/563a3e1a-70e0-4856-85ac-56aa164eed01></h3>
 
 * RFM_Score가 9 이상인 고객은 '상위' 범주
   
@@ -259,7 +259,7 @@
 
 <br><br>
 
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/6b5cb92a-c0e8-4531-84ff-5c99f03f0756></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/6b5cb92a-c0e8-4531-84ff-5c99f03f0756></h3>
 
 * 안타깝게도 모든 변수는 대칭이 아님, 모두 오른쪽으로 치우쳐져있기 때문에, 왜도를 제거할 필요가 있음
   
@@ -280,27 +280,27 @@
 
 #### 6-b) 로그 변환을 통한 왜도 제거
 ##### b-1) 로그 변환
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/10a431d6-2dfc-412b-98e9-aa7724541234></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/10a431d6-2dfc-412b-98e9-aa7724541234></h3>
 
 * 로그 변환을 수행하고 날짜를 표준화
 
 <br><br>
 
 ##### b-2) 왜도 제거
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/7dd4ad0a-e1c6-434f-babe-5ee698b0875b></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/7dd4ad0a-e1c6-434f-babe-5ee698b0875b></h3>
 
 <br><br>
 
 ### 7) K-means Clustering
 #### 7-a) Elbow Method
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/a3a6c1bc-6496-4ae0-bb17-7bce248bc548></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/a3a6c1bc-6496-4ae0-bb17-7bce248bc548></h3>
 
 * 최적의 K값 3, 4, 5를 구함
 
 <br><br>
 
 #### 7-b) K = 3, 4, 5 각 값에 대한 세그먼트 해석
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/78453fd4-f4e3-441c-9185-52f2dae89150></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/78453fd4-f4e3-441c-9185-52f2dae89150></h3>
 
 * 위 스네이크 플롯에서, 군집들 사이의 최근성, 빈도, 그리고 금액 지표 값들의 분포 확인 가능
 
@@ -311,14 +311,14 @@
 <br><br>
 
 #### 7-c 각 군집에 대한 각 속성의 상대적 중요도
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/f53e2a71-4076-4408-ae60-547ebbe3ca05></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/f53e2a71-4076-4408-ae60-547ebbe3ca05></h3>
 
 * 각 군집의 속성 평균값을 전체 인구 평균으로 나누어 계산
 
 <br><br>
 
 ### 📋 결론
-<h3 align="center"><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/507b643a-88d6-4bc7-affe-f3808409d48d></h3>
+<h3><img src= https://github.com/LHG-Git/Cohort_and_RFM_Analysis/assets/100845169/507b643a-88d6-4bc7-affe-f3808409d48d></h3>
 
 * 위의 분석에서 데이터에 4개의 클러스터가 있어야 함을 알 수 있음
   
